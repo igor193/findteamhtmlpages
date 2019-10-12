@@ -10,7 +10,7 @@
     <link href="../css/pacetges/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="admin.css" rel="stylesheet">
 
-    <title>Admin_posts</title>
+    <title>Admin_categories</title>
 </head>
 
 <body>
@@ -35,7 +35,7 @@
             <div class="sidebar col-2">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link nav" href="admin_main.html">Администратор</a>
+                            <a class="nav-link nav" href="admin_main.html">Административная</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav" href="admin_posts.html">Объявления</a>
@@ -76,264 +76,109 @@
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </nav>
-
+                <h3>Категории</h3>
                 <div class="table-responsive-xl">
                     <table class="table">
 
                         <thead>
                             <tr>
-                                <th>Rendering engine</th>
-                                <th>Browser</th>
-                                <th>Platform(s)</th>
-                                <th>Engine version</th>
-                                <th>CSS grade</th>
+                                <th>id</th>
+                                <th>Название</th>
+                                <th>Слаг</th>
+                                <th>id родителя</th>
+                                <th>Родитель</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Trident</td>
-                                <td>Internet Explorer 4.0
+                                    <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    1
+                                                </label>
+                                            </div>
+                                        </td>
+                                <td>Бизнес
                                 </td>
-                                <td>Win 95+</td>
+                                <td>business</td>
                                 <td> 4</td>
                                 <td>X</td>
                             </tr>
                             <tr>
-                                <td>Trident</td>
-                                <td>Internet Explorer 5.0
+                                    <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    2
+                                                </label>
+                                            </div>
+                                        </td>
+                                <td>Музыка
                                 </td>
-                                <td>Win 95+</td>
+                                <td>music</td>
                                 <td>5</td>
                                 <td>C</td>
                             </tr>
                             <tr>
-                                <td>Trident</td>
-                                <td>Internet Explorer 5.5
+                                    <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    3
+                                                </label>
+                                            </div>
+                                        </td>
+                                <td>Игры
                                 </td>
-                                <td>Win 95+</td>
+                                <td>games</td>
                                 <td>5.5</td>
                                 <td>A</td>
                             </tr>
                             <tr>
-                                <td>Trident</td>
-                                <td>Internet Explorer 6
+                                    <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    4
+                                                </label>
+                                            </div>
+                                        </td>
+                                <td>Спорт
                                 </td>
-                                <td>Win 98+</td>
+                                <td>sport</td>
                                 <td>6</td>
                                 <td>A</td>
                             </tr>
                             <tr>
-                                <td>Trident</td>
-                                <td>Internet Explorer 7</td>
-                                <td>Win XP SP2+</td>
+                                    <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    5
+                                                </label>
+                                            </div>
+                                        </td>
+                                <td>Инвестиции</td>
+                                <td>invest</td>
                                 <td>7</td>
                                 <td>A</td>
                             </tr>
                             <tr>
-                                <td>Trident</td>
-                                <td>AOL browser (AOL desktop)</td>
-                                <td>Win XP</td>
+                                    <td>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    6
+                                                </label>
+                                            </div>
+                                        </td>
+                                <td>Ай-Ти</td>
+                                <td>it</td>
                                 <td>6</td>
                                 <td>A</td>
                             </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Firefox 1.0</td>
-                                <td>Win 98+ / OSX.2+</td>
-                                <td>1.7</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Firefox 1.5</td>
-                                <td>Win 98+ / OSX.2+</td>
-                                <td>1.8</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Firefox 2.0</td>
-                                <td>Win 98+ / OSX.2+</td>
-                                <td>1.8</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Firefox 3.0</td>
-                                <td>Win 2k+ / OSX.3+</td>
-                                <td>1.9</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Camino 1.0</td>
-                                <td>OSX.2+</td>
-                                <td>1.8</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Camino 1.5</td>
-                                <td>OSX.3+</td>
-                                <td>1.8</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Netscape 7.2</td>
-                                <td>Win 95+ / Mac OS 8.6-9.2</td>
-                                <td>1.7</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Netscape Browser 8</td>
-                                <td>Win 98SE+</td>
-                                <td>1.7</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Gecko</td>
-                                <td>Netscape Navigator 9</td>
-                                <td>Win 98+ / OSX.2+</td>
-                                <td>1.8</td>
-                                <td>A</td>
-                            </tr>                           
-                            <tr>
-                                <td>Presto</td>
-                                <td>Opera 9.5</td>
-                                <td>Win 88+ / OSX.3+</td>
-                                <td>-</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Presto</td>
-                                <td>Opera for Wii</td>
-                                <td>Wii</td>
-                                <td>-</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Presto</td>
-                                <td>Nokia N800</td>
-                                <td>N800</td>
-                                <td>-</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Presto</td>
-                                <td>Nintendo DS browser</td>
-                                <td>Nintendo DS</td>
-                                <td>8.5</td>
-                                <td>C/A<sup>1</sup></td>
-                            </tr>
-                            <tr>
-                                <td>KHTML</td>
-                                <td>Konqureror 3.1</td>
-                                <td>KDE 3.1</td>
-                                <td>3.1</td>
-                                <td>C</td>
-                            </tr>
-                            <tr>
-                                <td>KHTML</td>
-                                <td>Konqureror 3.3</td>
-                                <td>KDE 3.3</td>
-                                <td>3.3</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>KHTML</td>
-                                <td>Konqureror 3.5</td>
-                                <td>KDE 3.5</td>
-                                <td>3.5</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Tasman</td>
-                                <td>Internet Explorer 4.5</td>
-                                <td>Mac OS 8-9</td>
-                                <td>-</td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td>Tasman</td>
-                                <td>Internet Explorer 5.1</td>
-                                <td>Mac OS 7.6-9</td>
-                                <td>1</td>
-                                <td>C</td>
-                            </tr>
-                            <tr>
-                                <td>Tasman</td>
-                                <td>Internet Explorer 5.2</td>
-                                <td>Mac OS 8-X</td>
-                                <td>1</td>
-                                <td>C</td>
-                            </tr>
-                            <tr>
-                                <td>Misc</td>
-                                <td>NetFront 3.1</td>
-                                <td>Embedded devices</td>
-                                <td>-</td>
-                                <td>C</td>
-                            </tr>
-                            <tr>
-                                <td>Misc</td>
-                                <td>NetFront 3.4</td>
-                                <td>Embedded devices</td>
-                                <td>-</td>
-                                <td>A</td>
-                            </tr>
-                            <tr>
-                                <td>Misc</td>
-                                <td>Dillo 0.8</td>
-                                <td>Embedded devices</td>
-                                <td>-</td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td>Misc</td>
-                                <td>Links</td>
-                                <td>Text only</td>
-                                <td>-</td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td>Misc</td>
-                                <td>Lynx</td>
-                                <td>Text only</td>
-                                <td>-</td>
-                                <td>X</td>
-                            </tr>
-                            <tr>
-                                <td>Misc</td>
-                                <td>IE Mobile</td>
-                                <td>Windows Mobile 6</td>
-                                <td>-</td>
-                                <td>C</td>
-                            </tr>
-                            <tr>
-                                <td>Misc</td>
-                                <td>PSP browser</td>
-                                <td>PSP</td>
-                                <td>-</td>
-                                <td>C</td>
-                            </tr>
-                            <tr>
-                                <td>Other browsers</td>
-                                <td>All others</td>
-                                <td>-</td>
-                                <td>-</td>
-                                <td>U</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <th>Rendering engine</th>
-                                <th>Browser</th>
-                                <th>Platform(s)</th>
-                                <th>Engine version</th>
-                                <th>CSS grade</th>
-                            </tr>
+                            
                         </tfoot>
 
 
