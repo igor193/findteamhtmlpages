@@ -9,28 +9,11 @@
     <link href="../css/pacetges/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="insertForm.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Make posts</title>
   </head>
   <body>
 
-      <div class="sidebar">
-          <div class="row">
-              <div class="col-12">
-                <div class="list-group" id="list-tab" role="tablist">
-                  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Категории</a>
-                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-                  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-                </div>
-              </div>           
-            </div>
-      </div>
-      
-
-      <div class="container">
+       <div class="container">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-8">Размещение объявления</h1>
@@ -39,35 +22,21 @@
           </div>
     <form>
         <div class="form-group">
-            <label for="exampleFormControlSelect1">Категория</label>
+            <label for="exampleFormControlSelect1">Выберите категорию</label>
             <select class="form-control" id="exampleFormControlSelect1">
               <option>Бизнес</option>
-              <option>1</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+              <option>Инвестиции</option>
+              <option>Ай-Ти</option>
+              <option>Игры</option>
+              <option>Спорт</option>
+              <option>Музыка</option>
             </select>
           </div>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        
-        <div class="form-group">
-          <label for="exampleFormControlSelect2">Example multiple select</label>
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <a class="btn btn-primary" href="../admin_pages/form_for_insert/input_post.html" >
+             Далее
+            </a> 
         </div>      
-      <button type="submit" class="btn btn-primary">Разместить</button>    
+   
       </form>
       </div>
   

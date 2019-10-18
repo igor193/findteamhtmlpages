@@ -146,13 +146,14 @@
                 <span class="input-group-text" id="inputGroupFileAddon01">Прикрепить</span>
               </div>
               
-              <div class="custom-file">
+              <div class="custom-file col-sm-7">
                 <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
                 <label class="custom-file-label" for="inputGroupFile01">Вложения</label>
               </div>
             </div>
-
-            <div class="form-group">
+            <fieldset class="form-group">
+                <div class="row">
+            <div class="form-group col-sm-4">
                 <label for="exampleFormControlSelect1">Вложения (размер)</label>
                 <select class="form-control" id="exampleFormControlSelect1">
                   <option>100$</option>
@@ -162,7 +163,7 @@
                   <option>5000$</option>
                 </select>
               </div>
-              <div class="form-group">
+              <div class="form-group col-sm-4">
                   <label for="exampleFormControlSelect1">Стадия проекта</label>
                   <select class="form-control" id="exampleFormControlSelect1">
                     <option>Идея</option>
@@ -172,8 +173,76 @@
                     <option>Реализовано</option>
                   </select>
                 </div>
+                </div>
+              </fieldset>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Вид</legend>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Офлайн
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Онлайн
+                        </label>
+                      </div>                      
+                    </div> 
+                    <legend class="col-form-label col-sm-2 pt-0">Опыт в данной сфере</legend>
+                    <div class="col-sm-4">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Да
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Нет
+                        </label>
+                      </div>                      
+                    </div>                   
+                  </div>
+                </fieldset>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+                <fieldset class="form-group">
+                    <div class="row">
+                <div class="input-group col-sm-4">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Сколько человек нужно в команду</span>
+                    </div>
+                    <input type="text" aria-label="First name" class="form-control">
+                    <input type="text" aria-label="Last name" class="form-control">
+                  </div>
+                  <div class="input-group col-sm-4">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Сколько времени надо уделять в день</span>
+                      </div>
+                      <input type="text" aria-label="First name" class="form-control">
+                      <input type="text" aria-label="Last name" class="form-control">
+                    </div>
+                  </div>
+                </fieldset>
+<br>
+                <div class="input-group mb-3 col-sm-4">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary" type="button" id="button-addon1">Город</button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                  </div>
+                  <div class="form-group col-sm-4">
+                      <label for="exampleFormControlTextarea1">Доля партнеру %</label>
+                      <input class="form-control" id="exampleFormControlTextarea1" type="text" placeholder="Default input">
+                    </div>
+                  
+
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <button type="submit" class="btn btn-primary">Сохранить и разместить</button>
           </form>
 
           
